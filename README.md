@@ -6,7 +6,7 @@ Screenshot (2).png
 
 
 Installation:
-There is no instillation for this program as it is a website. If you would like to access the website visit
+There is no instillation for this program as it is a website. If you would like to access the website visit: https://gpphelps.github.io/responsive-portfolio/
 
 
 Features:
