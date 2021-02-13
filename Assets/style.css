@@ -16,18 +16,24 @@ body {
     background-color:#d0aa5b;
 }
 
-header {
+.header {
     width: 100%;
     margin: 0 0 30px;
     overflow: auto;
-    color: #1fa1b8;
     border: 3px solid #ddd;
 }
     
 
-h1 {
+.header h1 {
     font-size: 30px;
     line-height: 49px;
+    color: #1fa1b8;
+}
+
+.subheader {
+    width: 100%;
+    overflow: auto;
+    border: 3px solid #ddd;
 }
 
 nav {
@@ -47,140 +53,130 @@ ul li {
     margin-left: 20px;
 }
 
-#about-me-main {
+.about-me-main {
     display:flex;
     width: 100%;
-    border: 3px solid #ddd;
 }
 
 
-#about-me-left {
+.about-me-left {
+    display: flex;
+    justify-content: center;
+    border-right: 3px solid #ddd;  
+    width: 70px;
+}
+
+.about-me-right {
+  margin-left: 10px;
+}
+
+.portfolio-main {
+    display:flex;
+    width: 100%;
+}
+
+.portfolio-left{
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-left p {
     border-right: 3px solid #ddd;
-    margin-right: 20px;
-    padding-right: 14px;
+    ;
+    width: 70px;
+    
 }
 
-#portfolio-main {
+.contact-me-main {
     display:flex;
     width: 100%;
     border: 3px solid #ddd;
-    margin-top: 10px;
+    
 }
 
-#portfolio-left p {
-    border-right: 3px solid #ddd;
-    padding-right: 10px;
-}
-
-#contact-me-main {
-    display:flex;
-    width: 100%;
-    border: 3px solid #ddd;
-    margin-top: 10px;
-}
-
-#contact-me-left {
+.contact-me-left {
     display: flex;
     border-right: 3px solid #ddd;
-}
+    width: 70px;
+  }
 
-#contact-me-right {
+.contact-me-right {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
 }
 
-#github {
+
+
+
+.project-1-big {
+  display:flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.project-1 {
+  width: 90%;
+}
+
+.project-1-label {
+  position: relative;
+  top: 25%;
+  border: rgb(10, 10, 10) solid 3px;
+  width: 10%;
+  background: #ddd;
+}
+
+.project-small {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project {
+  width: 45%;
+  height: 250px;
+}
+
+
+
+
+/* contact me section */
+.contact-me-right {
+  display:flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.github {
     min-width: 32px;
     min-height: 32px;
 }
 
-#github:hover {
+.github:hover {
     filter: invert(51%) sepia(55%) saturate(617%) hue-rotate(141deg) brightness(93%) contrast(91%);
 }
 
-#linkedin {
+.linkedin {
     min-width: 32px;
     min-height: 32px;
 }
 
-#linkedin:hover {
+.linkedin:hover {
     filter: invert(51%) sepia(55%) saturate(617%) hue-rotate(141deg) brightness(93%) contrast(91%);
 }
 
-#stack-overflow {
+.stack-overflow {
     max-width: 150px;
     max-height: 150px;
 }
 
-#stack-overflow:hover {
+.stack-overflow:hover {
     filter: invert(51%) sepia(55%) saturate(617%) hue-rotate(141deg) brightness(93%) contrast(91%);
 }
 
-@media (max-width: 980px) {
-    #header {
-      width: 100%;
-    }
-    #about-me-main {
-      width: 100%;
-    }
-    #portfolio-main {
-      width: 100%;
-    }
-    .contact-me-main {
-      width: 100%;
-    }
-  }
-  @media (max-width: 768px) {
-    #header {
-        width: 100%;
-      }
-      #about-me-main {
-        width: 100%;
-      }
-      #portfolio-main {
-        width: 100%;
-      }
-      .contact-me-main {
-        width: 100%;
-      }
-    }
-  
-  @media (max-width: 640px) {
-    #header {
-        width: 100%;
-        position: static;
-      } 
-      #about-me-main {
-        width: 100%;
-      }
-      #portfolio-main {
-        width: 100%;
-      }
-      .contact-me-main {
-        width: 100%;
-      }
-    }
 
-    @media (max-width: 480px) {
-        #header {
-            width: 100%;
-          } 
-          #nav {
-              justify-content: center;
-          }
-          #about-me-main {
-            width: 100%;
-          }
-          #portfolio-main {
-            width: 100%;
-          }
-          .contact-me-main {
-            width: 100%;
-          }
-        }
-  
 
 
 
