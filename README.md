@@ -2,7 +2,7 @@
 Responsive Portfolio for HW assignment 2
 
 Usage: 
-Screenshot (2).png
+![screenshot-hw-1](https://user-images.githubusercontent.com/77752180/107867563-c911ff80-6e49-11eb-8cec-184bf35cb947.png)
 
 
 Installation:
