@@ -1,12 +1,14 @@
 ### responsive-portfolio
 Responsive Portfolio for HW assignment 2
 
+This file will be under constant construction and management until further notice. To that end I would greatly apreciate any and all criticism or or methods by which I can improve my portfolio website.
+
 Usage: 
-![screenshot-hw-1](https://user-images.githubusercontent.com/77752180/107867563-c911ff80-6e49-11eb-8cec-184bf35cb947.png)
+![screenshot-hw-2](https://user-images.githubusercontent.com/77752180/107867581-0d050480-6e4a-11eb-9128-b1e5547e8820.png)
 
 
 Installation:
-There is no instillation for this program as it is a website. If you would like to access the website visit: https://gpphelps.github.io/responsive-portfolio/
+There is no instillation for this program as it is a website. If you would like to access the site visit: https://gpphelps.github.io/responsive-portfolio/
 
 
 Features:
