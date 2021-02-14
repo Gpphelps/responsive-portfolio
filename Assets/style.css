@@ -22,6 +22,16 @@ body {
     overflow: auto;
     border: 3px solid #ddd;
 }
+
+.profile-pic {
+    display: flex;
+}
+
+.gene-pic {
+    display: flex;
+    max-width: 200px;
+    max-height: 200px;
+}
     
 
 .header h1 {
@@ -31,6 +41,7 @@ body {
 }
 
 .subheader {
+    display: flex;
     width: 100%;
     overflow: auto;
     border: 3px solid #ddd;
